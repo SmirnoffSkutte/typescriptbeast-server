@@ -26,7 +26,7 @@ export class UpdateMovieDto {
     slug:string
 
     @IsString()
-    description:string
+    description?:string
 
     @IsObject()
     parameters: Parameters
